@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  /* background-color: #efeef6; */
+  background-image: url(../images/321161450414.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.content-container {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  background-color: #ffff;
+  color: #ffff;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+.content {
+  /* background-color: #dd1c1a; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: #1a1a1a;
+}
+.text-container {
+  /* background-color: #90CAF9; */
+  margin-block: 15px;
+  width: 70%;
+}
+.text-container .p1 {
+  font-size: 46px;
+  font-weight: 500;
+}
+.text-container .p2 {
+  font-size: 16px;
+  font-weight: medium;
+}
+.form-container {
+  /* background-color: aqua; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  /* background-color: #E3F2FD; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  font-size: 16px;
+  width: 100%;
+}
+.input-box {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 30px;
+  overflow: hidden;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  margin-block: 5px;
+}
+.input-box .champ {
+  border: none;
+  outline: none;
+}
+.input-box i {
+  color: #0d47a1;
+  font-size: 14px;
+}
+.radio-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-block: 5px;
+}
+.radio-box {
+  /* background-color: #90CAF9; */
+  display: flex;
+  width: 200px ;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.dn-container {
+  /* background-color: aquamarine; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dn {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 30px;
+  width: 200px;
+  overflow: hidden;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  margin-block: 5px;
+}
+
+.champ-dn {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  color: #1a1a1a;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-block: 15px;
+  background: url(../images/calendar-alt-solid-24.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 93.7%;
+}
+.champ-dn::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+}
+.checkbox-container{
+  /* background-color: #e3e3e3; */
+  font-size: 14px;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 5px;
+}
+button {
+  background-color: #0d47a1;
+  font-size: 13px;
+  font-weight: 500;
+  height: 30px;
+  width: 100%;
+  margin-block: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  background-color: #2196f3;
+}
+.p3 {
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: #0d47a1;
+  transition: 0.3s ease-in-out;
+}
+ a:visited {
+  color: none;
+}
+ a:hover {
+  opacity: 0.6;
+}
+
+/* Right_side */
+.imgcontainer {
+  background-color: #ffff;
+  background-image: url(..//images/dr06_5ev7_230323.jpg);
+  background-size: 70%;
+  display: flex;
+  border-radius: 40px 0px 0px 40px;
+  height: 100%;
+  width: 50%;
+  /* box-shadow: 25px 0px 46px -50px rgba(0, 0, 0, 0.63) inset; */
+}
